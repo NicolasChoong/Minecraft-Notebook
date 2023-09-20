@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'MinecraftRegular-Bmg3';
+    src: url(fonts/MinecraftRegular-Bmg3.otf) format('opentype');
+}
+
+h1, h2, p {
+    font-family: "MinecraftRegular-Bmg3";
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+p {
+    font-size: 20px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+    background-image: url(homeimages/dirt\ bgimg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    padding: 30px 0 30px 0;
+    
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    text-align: center;
+    background-color: antiquewhite;
+    background-image: url(homeimages/grassblock\ bgimg.png);
+    background-size: contain;
+}
+
+.headerlink a {
+    margin: 100px;
+    font-size: 20px;
+    font-family: "MinecraftRegular-Bmg3";    font-weight: 900;
+    color: white;
+    text-shadow: 3px 3px #000A; 
+    text-decoration: none;
+}
+
+.headerlink a:hover {
+    color: #FFFFA0;
+}
+
+.about-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 87vh;
+    background-color: antiquewhite;
+}
+
+.about-intro h1 {
+    width: 80%;
+    color: black;
+    text-align: center;
+}
+
+.about-intro p {
+    width: 80%;
+    color:  black;
+    text-align: center;
+}
+
+.about-web {
+    margin-top: -25px;
+    text-align: center;
+    background-color: black;
+}
+
+.about-web h1 {
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+.about-web p {
+    text-align: left;
+}
+
+.html {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(105, 105, 105);
+    height: 87vh;
+}
+
+.html-left {
+    width: 50%;
+    padding: 0 100px 0 100px;
+}
+
+.html-right {
+    width: 50%;
+    padding: 0 100px 0 100px;
+}
+
+.css {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(75, 75, 75);
+    height: 87vh;
+}
+
+.css-left {
+    width: 50%;
+    padding: 0 100px 0 100px;
+}
+
+.css-right {
+    width: 50%;
+    padding: 0 100px 0 100px;
+}   
+
+.javascript {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(56, 56, 56);
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.javascript img {
+    height: 300px;
+    width: 300px;
+    margin: -30px 0 -10px 0;
+    border-radius: 20px;
+}
+
+.javascript p {
+    width: 80%;
+    text-align: center;
+}
+
+.notebook-preview, .calculator-preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    padding-top: 50px;
+}
+
+.notebook-preview img, .calculator-preview img {
+    height: 250px;
+    width: 420px;
+    margin: 0;
+}
+
+.notebook-preview p, .calculator-preview p {
+    text-align: left;
+    padding-left: 40px;
+}
+
+.about-end {
+    padding: 80px 0 80px 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
