@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Notebook</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="index.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="headerlink">
+            <a href="index.html">Home</a>
+            <a href="notebook.html">Notebook</a>
+            <a href="calculator.html">Resource Calculator</a>
+            <a href="about.html">About</a>
+            <fade></fade>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <div class="main-left--wrapper">
+            <div class="main-left">
+                <div class="column">
+                    <h1>Basic</h1> 
+                    <ul>
+                        <li>
+                            <img src="calculatorimages/planks.png">
+                            <input id="planks-amount">
+                            <button id="planks" disabled>Calculate</button>
+                        </li>
+                        <li>
+                            <img src="calculatorimages/craftingtable.png">
+                            <input id="craftingtable-amount">
+                            <button id="craftingtable" disabled>Calculate</button>
+                        </li>
+                        <li>
+                            <img src="calculatorimages/stick.png">
+                            <input id="sticks-amount">
+                            <button id="sticks" disabled>Calculate</button>
+                        </li>
+                        <li>
+                            <img src="calculatorimages/chest.png">
+                            <input id="chest-amount">
+                            <button id="chest" disabled>Calculate</button>
+                        </li>
+                        <li>
+                            <img src="calculatorimages/furnace.png">
+                            <input id="furnace-amount">
+                            <button id="furnace" disabled>Calculate</button>
+                        </li>
+                        <li>
+                            <img src="calculatorimages/fence.png">
+                            <input id="fence-amount">
+                            <button id="fence" disabled>Calculate</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h1>Blocks</h1>
+                    <ul>
+                        <li>
+                            <img src="calculatorimages/bookshelf.png">
+                            <input id="bookshelf-amount">
+                            <button id="bookshelf" disabled>Calculate</button>
+                        </li>
+                        <li>
+                            <img src="calculatorimages/noteblock.png">
+                            <input id="noteblock-amount">
+                            <button id="noteblock" disabled>Calculate</button>
+                        </li>
+                        <li>
+                            <img src="calculatorimages/tnt.png">
+                            <input id="tnt-amount">
+                            <button id="tnt" disabled>Calculate</button>
+                        </li>
+                        <li>
+                            <img src="calculatorimages/stonebrick.png">
+                            <input id="stonebrick-amount">
+                            <button id="stonebrick" disabled>Calculate</button>
+                        </li>
+                        <li>
+                            <img src="calculatorimages/stairs.png">
+                            <input id="stairs-amount">
+                            <button id="stairs" disabled>Calculate</button>
+                        </li>
+                        <li>
+                            <img src="calculatorimages/redstoneblock.png">
+                            <input id="redstoneblock-amount">
+                            <button id="redstoneblock" disabled>Calculate</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <div class="main-right--wrapper">
+            <div class="main-right">
+                <div class="column">
+                    <h1>Tools</h1>
+                    <ul>
+                        <li>
+                            <img src="calculatorimages/pickaxe.png">
+                            <input id="pickaxe-amount">
+                            <button id="pickaxe" disabled>Calculate</button>
+                        </li>
+                        <li>
+                            <img src="calculatorimages/shovel.png">
+                            <input id="shovel-amount">
+                            <button id="shovel" disabled>Calculate</button>
+                        </li>
+                        <li>
+                            <img src="calculatorimages/axe.png">
+                            <input id="axe-amount">
+                            <button id="axe" disabled>Calculate</button>
+                        </li>
+                        <li>
+                            <img src="calculatorimages/hoe.png">
+                            <input id="hoe-amount">
+                            <button id="hoe" disabled>Calculate</button>
+                        </li>
+                        <li>
+                            <img src="calculatorimages/sword.png">
+                            <input id="sword-amount">
+                            <button id="sword" disabled>Calculate</button>
+                        </li>
+                        <li>
+                            <img src="calculatorimages/bow.png">
+                            <input id="bow-amount">
+                            <button id="bow" disabled>Calculate</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h1>Others</h1>
+                    <ul>
+                        <li>
+                            <img src="calculatorimages/paper.png">
+                            <input id="paper-amount">
+                            <button id="paper" disabled>Calculate</button>
+                        </li>
+                        <li>
+                            <img src="calculatorimages/book.png">
+                            <input id="book-amount">
+                            <button id="book" disabled>Calculate</button>
+                        </li>
+                        <li>
+                            <img src="calculatorimages/enchantingtable.png">
+                            <input id="enchanting-amount">
+                            <button id="enchanting" disabled>Calculate</button>
+                        </li>
+                        <li>
+                            <img src="calculatorimages/blastfurnace.png">
+                            <input id="blastfurnace-amount">
+                            <button id="blastfurnace" disabled>Calculate</button>
+                        </li>
+                        <li>
+                            <img src="calculatorimages/smoker.png">
+                            <input id="smoker-amount">
+                            <button id="smoker" disabled>Calculate</button>
+                        </li>
+                        <li>
+                            <img src="calculatorimages/glasspane.png">
+                            <input id="glasspane-amount">
+                            <button id="glasspane" disabled >Calculate</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="result-box">
+            <div class="result--wrapper">
+                <div class="result">
+                    <h1>Results</h1>
+                    <div>
+                        <img id="results-recipe">
+                    </div>
+                    <div>
+                        <p id="results">__________</p>
+                        <p id="remaining"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="calculator.js"></script>
+</body>
+</html>
